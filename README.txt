@@ -8,19 +8,19 @@ Brief Overview of Important Files:
    
 - TheCoreRemapper.py - This is the script that makes the magic happen. You can run python TheCoreRemapper.py, and it will generate all SC2Hotkeys files, and check them for errors.
 
--<target folder>/config.ini
+- <target folder>/config.ini
 
--<target folder>/seeds/*.SC2Hotkeys
--<target folder>/generated/<keyboard layout name>/*.SC2Hotkeys 
+- <target folder>/seeds/*.SC2Hotkeys
+- <target folder>/generated/<keyboard layout name>/*.SC2Hotkeys 
 
--Defaults.ini und <target folder>/reports/defaults.log
--DifferentDefault.ini
+- Defaults.ini und reports/Defaults.log
+- DifferentDefault.ini
 
--ConflictChecks.py und <target folder>/reports/ConflictCheck.log
--SameChecks.py und <target folder>/reports/SameCheck.log
+- ConflictChecks.py und <target folder>/reports/ConflictCheck.log
+- SameChecks.py und <target folder>/reports/SameCheck.log
 
--<target folder>/Inheritance.ini und <target_folder>/reports/WrongInheritance.log
--<target folder>/reports/SuggestInheritance.log
+- <target folder>/Inheritance.ini und <target_folder>/reports/WrongInheritance.log
+- <target folder>/reports/SuggestInheritance.log
 
 The important thing to note about editing files with the in-game editor is that any overlaps between the edited files and the SC2 Standard hotkey layout will be stripped from the file.
 This is why Default.ini stores the default Standard layout hotkeys from the USQwerty keyboard layout, so that it can fill these back in when you run the TheCoreRemapper.py.
