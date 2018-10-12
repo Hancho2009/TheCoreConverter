@@ -2,11 +2,25 @@ Pre-Requisites: You must have Python 3.5.1+ installed to run this script.
 
 Brief Overview of Important Files:
 
-1. MapDefinitions.ini - This file stores the mappings that are used to convert the USQwerty left-handed medium layouts to the right handed, large and small USQwerty layouts. 
+- MapDefinitions.ini - This file stores the mappings that are used to convert the USQwerty left-handed medium layouts to the right handed, large and small USQwerty layouts. 
 
-2. KeyboardLayouts.ini - This file stores mappings for other keyboard layouts.
+- KeyboardLayouts.ini - This file stores mappings for other keyboard layouts.
    
-3. TheCoreRemapper.py - This is the script that makes the magic happen. You can run python TheCoreRemapper.py, and it will generate all SC2Hotkeys files, and check them for errors.
+- TheCoreRemapper.py - This is the script that makes the magic happen. You can run python TheCoreRemapper.py, and it will generate all SC2Hotkeys files, and check them for errors.
+
+-<target_folder>/config.ini
+
+-<target folder>/seeds/*.SC2Hotkeys
+-<target folder>/generated/<keyboard layout name>/*.SC2Hotkeys 
+
+-Defaults.ini und <target folder>/reports/defaults.log
+-DifferentDefault.ini
+
+-ConflictChecks.py und <target folder>/reports/ConflictCheck.log
+-SameChecks.py und <target folder>/reports/SameCheck.log
+
+-<target_folder>/Inheritance.ini und <target_folder>/reports/WrongInheritance.log
+-<target folder>/reports/SuggestInheritance.log
 
 The important thing to note about editing files with the in-game editor is that any overlaps between the edited files and the SC2 Standard hotkey layout will be stripped from the file.
 This is why Default.ini stores the default Standard layout hotkeys from the USQwerty keyboard layout, so that it can fill these back in when you run the TheCoreRemapper.py.
