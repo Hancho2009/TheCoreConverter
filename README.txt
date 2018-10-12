@@ -8,7 +8,7 @@ Brief Overview of Important Files:
    
 - TheCoreRemapper.py - This is the script that makes the magic happen. You can run python TheCoreRemapper.py, and it will generate all SC2Hotkeys files, and check them for errors.
 
--<target_folder>/config.ini
+-<target folder>/config.ini
 
 -<target folder>/seeds/*.SC2Hotkeys
 -<target folder>/generated/<keyboard layout name>/*.SC2Hotkeys 
@@ -19,7 +19,7 @@ Brief Overview of Important Files:
 -ConflictChecks.py und <target folder>/reports/ConflictCheck.log
 -SameChecks.py und <target folder>/reports/SameCheck.log
 
--<target_folder>/Inheritance.ini und <target_folder>/reports/WrongInheritance.log
+-<target folder>/Inheritance.ini und <target_folder>/reports/WrongInheritance.log
 -<target folder>/reports/SuggestInheritance.log
 
 The important thing to note about editing files with the in-game editor is that any overlaps between the edited files and the SC2 Standard hotkey layout will be stripped from the file.
