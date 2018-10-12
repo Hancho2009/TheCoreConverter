@@ -222,6 +222,7 @@ Start Check defaults (log file: Defaults.log)
 [WARN]: no default ZealotHallucination/Nexus
 [WARN]: no default ZealotHallucination/Voranor
 [WARN]: no default hydraliskspeed/LurkerDen
+[WARN]: no default Spray
 [ERROR]: no default EvolveAdrenalineBoost/EvolutionChamber
 [ERROR]: no default EvolveDevourerAoEDamage/GreaterSpire
 [ERROR]: no default EvolveDevourerAoEDamage/Spire
@@ -235,5 +236,5 @@ Start Check defaults (log file: Defaults.log)
 [ERROR]: no default SpawnToxicNest/CreepTumorBurrowed
 [ERROR]: no default Transfusion/EvolutionChamber
 ----------------------------
-Finished (Check defaults) - WARNs: 221 ERRORs: 12 
+Finished (Check defaults) - WARNs: 222 ERRORs: 12 
 ============================

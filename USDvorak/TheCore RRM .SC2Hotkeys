@@ -1095,6 +1095,7 @@ Spire/Drone=S
 SporeCrawler/Drone=BracketOpen
 SporeCrawlerRoot/SporeCrawlerUprooted=T
 SporeCrawlerUproot/SporeCrawler=S,Minus
+Spray=I
 Stalker=BracketOpen
 StalkerBlinkShieldRestoreBase/StalkerShakuras=C
 StalkerHallucination/Nexus=W
